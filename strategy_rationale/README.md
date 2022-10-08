@@ -1,7 +1,7 @@
 # strategy_rationale
 Preprocess features
 ```
-Waiting
+python prepro_feats_img_fc.py --input_path data/imgs/pong --json data/json/pong_strat.json --output_dir data/feats/inception_v3/pong_strat --output_dir_feat data/feats/inception_v3/pong_strat_feats --batch_size 2
 ```
 Prepare vocabulary
 ```
@@ -9,7 +9,7 @@ python prepro_vocab.py --input_json data/json/pong_strat.json --info_json data/j
 ```
 Training
 ```
-python train.py --input_json data/json/pong_strat.json --info_json data/json/info_pong.json --caption_json data/json/caption_pong.json --feats_dir data/feats/inception_v3/pong_strat_31_3 --checkpoint_path save/pong
+python train.py --input_json data/json/pong_strat.json --info_json data/json/info_pong.json --caption_json data/json/caption_pong.json --feats_dir data/feats/inception_v3/pong_strat --checkpoint_path save/pong
 ```
 Evaluate model
 ```

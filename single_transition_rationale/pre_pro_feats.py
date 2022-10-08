@@ -16,12 +16,12 @@ def load_image(image_path):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--datainfo_splitted", dest='datainfo_splitted',
-                        type=str, default="dataset/datainfo/24_3/datainfo_pong.json",
+                        type=str, default="dataset/datainfo/datainfo_pong.json",
                         help='Path to json file with train, test and eval splitted')
     parser.add_argument("--img_path", dest='img_path', type=str,
-                        default="dataset/imgs/pong_single_24_3", help='directory to load imgs')
+                        default="dataset/imgs/pong_single", help='directory to load imgs')
     parser.add_argument("--feat_dir", dest='feat_dir', type=str,
-                        default="dataset/feats/inceptionv3/pong_single_24_3", help='Directory to store feature')
+                        default="dataset/feats/inceptionv3/pong_single", help='Directory to store feature')
     parser.add_argument("--batch_size", dest="batch_size", type=int,
                         default=150, help="Batch size")
 
