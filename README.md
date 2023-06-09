@@ -8,12 +8,15 @@ single_transition_rationale/README.md
 strategy_captioning_rationale/README.md
 ```
 ## Citation and reference 
-For technical details and full experimental results, please check [our paper](https://arxiv.org/abs/2301.00437).
+For technical details and full experimental results, please check [our paper](https://ieeexplore.ieee.org/document/9918019).
 ```
-@article{dang2023neural,
-  title={Neural Collapse in Deep Linear Network: From Balanced to Imbalanced Data},
-  author={Hien Dang and Tho Tran and Stanley Osher and Hung Tran-The and Nhat Ho and Tan Nguyen},
-  journal={arXiv preprint arXiv:2301.00437},
-  year={2023}
-}
+@ARTICLE{9918019,
+  author={Phong Nguyen, X. and Tran, Tho H. and Pham, Nguyen B. and Do, Dung N. and Yairi, Takehisa},
+  journal={IEEE Access}, 
+  title={Human Language Explanation for a Decision Making Agent via Automated Rationale Generation}, 
+  year={2022},
+  volume={10},
+  number={},
+  pages={110727-110741},
+  doi={10.1109/ACCESS.2022.3214323}}
 ```
